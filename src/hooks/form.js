@@ -4,7 +4,7 @@ import io from 'socket.io-client';
 import Q from '@nmq/q/client';
 
 const socket = io.connect('http://localhost:3000');
-// const queue = new Q('deeds');
+
 //========================================
 
 const useForm = cb => {
